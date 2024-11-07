@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.boxh {
+    width: 100%;
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.box {
+    min-width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: yellow;
+    flex: 1 1 30%; /* Adjust width as needed */
+}
+
+.box2 {
+    background-color: orange;
+    flex: 1 1 60%; /* Adjust width as needed */
+}
+
+.box3 {
+    background-color: cyan;
+    flex: 1 1 60%; /* Full width for the last box */
+}
